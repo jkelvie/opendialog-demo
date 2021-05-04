@@ -1,0 +1,14 @@
+{
+  "extraParameters": {
+    "headless": "false",
+    "inputSelector": ".mat-input-element",
+    "replySelector": "chat-item-watson",
+    "url": "https://wbs-ui-prod-eli.wbs-k8s-eli-prod-e398e22d992ef450b44764ac7b341b8a-0000.us-south.containers.appdomain.cloud/dashboard;view=chat?board_id=bon"
+  },
+  "filter": "filter/src/filter.js",
+  "locale": "en-US",
+  "trace": "true",
+  "type": "e2e",
+  "virtualDeviceBaseURL": "http://localhost:3000",
+  "virtualDeviceToken": "jpk"
+}
