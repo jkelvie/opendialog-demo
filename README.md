@@ -1,4 +1,4 @@
-# Florida Nursing Demo
+# OpenDialog Demo
 Leverages Bespoken Virtual Devices for Web to test the Florida Nursing chatbot.
 
 ## Setup Locally
