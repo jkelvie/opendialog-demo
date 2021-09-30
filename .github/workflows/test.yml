@@ -8,8 +8,8 @@ on:
 
 env:
   DATADOG_API_KEY: ${{ secrets.DATADOG_API_KEY }}
-  DATADOG_CUSTOMER: "Florida Nursing"
-  VIRTUAL_DEVICE_TOKEN: Florida Nursing
+  DATADOG_CUSTOMER: "OpenDialog"
+  VIRTUAL_DEVICE_TOKEN: OpenDialog
 jobs:
   e2e-test:
     runs-on: ubuntu-latest
