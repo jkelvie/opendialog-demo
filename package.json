@@ -1,9 +1,9 @@
 {
-  "name": "liveperson-demo",
+  "name": "opendialog-demo",
   "version": "1.0.0",
   "dependencies": {
     "bespoken-datadog-plugin": "^1.1.1",
-    "bespoken-tools": "^2.4.98",
+    "bespoken-tools": "^2.4.104",
     "dotenv": "^8.2.0",
     "fast-xml-parser": "^3.19.0",
     "jsdom": "^11.12.0",

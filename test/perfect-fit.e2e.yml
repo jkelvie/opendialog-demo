@@ -1,0 +1,16 @@
+---
+- test.only: Basic
+- "yes": Ready? Set. Go! 
+- "mens": How often do you run?
+- "I run once a week": And what size shoes are you looking for
+- "size seven"
+- "overpronate": Ready to see some shoes?
+- "yes":
+  - $('.od-message-rich--image img').src: https://perfect-fit.opendialog.ai/bot/images/mens_1.jpg
+
+---
+- test: Button Clicking
+- "yes"
+- "I run once a week"
+- "$('.od-message-form--element-select').val(7).change();$('.submit-button').click()"
+- "men's"

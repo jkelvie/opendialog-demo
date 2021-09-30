@@ -1,14 +1,28 @@
 {
   "extraParameters": {
-    "headless.bak": "false",
-    "inputSelector": ".mat-input-element",
-    "replySelector": "chat-item-watson",
-    "url": "https://wbs-ui-prod-eli.wbs-k8s-eli-prod-e398e22d992ef450b44764ac7b341b8a-0000.us-south.containers.appdomain.cloud/dashboard;view=chat?board_id=bon"
+    "headless": "true",
+    "inputSelector": {
+      "iframeSelector": "#opendialog-chatwindow",
+      "selector": ".od-user-input__form-text-input"
+    },
+    "openSelectors": [".wt-cli-accept-all-btn", 
+      { 
+        "iframeSelector": "#opendialog-chatwindow",
+        "selector": ".od-header-cta__icon"
+      }
+    ],
+    "replySelector": {
+      "iframeSelector": "#opendialog-chatwindow",
+      "selector": ".reap span, .reap div",
+      "timeout": 10000
+    },
+    "url": "https://opendialog.ai/case-study-perfectfit/"
   },
   "filter": "filter/src/filter.js",
   "locale": "en-US",
   "trace": "true",
   "type": "e2e",
+  "virtualDeviceBaseURL.local": "http://localhost:3001",
   "virtualDeviceBaseURL": "https://virtual-device-web.bespoken.io",
-  "virtualDeviceToken": "jpk"
+  "virtualDeviceToken": "opendialog-chatbot"
 }

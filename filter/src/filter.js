@@ -1,4 +1,3 @@
-const DatadogPlugin = require('bespoken-datadog-plugin')
 const DOM = require('./dom')
 
 module.exports = {
@@ -11,11 +10,11 @@ module.exports = {
   },
 
   onTestEnd: async (test, testResult) => {
-    await DatadogPlugin.sendToDataDog(test, testResult)
+    // await DatadogPlugin.sendToDataDog(test, testResult)
   },
 
   onTestSuiteEnd: async (testResults) => {
-    await DatadogPlugin.sendSuiteResultsToDataDog(testResults)
+    // await DatadogPlugin.sendSuiteResultsToDataDog(testResults)
   },
 
   onValidate: (assertion) => {
