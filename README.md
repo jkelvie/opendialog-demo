@@ -1,9 +1,9 @@
 # OpenDialog Demo
-Leverages Bespoken Virtual Devices for Web to test the Florida Nursing chatbot.
+Leverages Bespoken Virtual Devices for Web to test the OpenDialog Perfect Fit chatbot.
 
 ## Setup Locally
 * Open CLI
-* Clone this project (`git clone https://github.com/jkelvie/florida-nursing-demo`)
+* Clone this project (`git clone https://github.com/jkelvie/opendialog-demo`)
 * Run `npm install`
 
 ## Running
